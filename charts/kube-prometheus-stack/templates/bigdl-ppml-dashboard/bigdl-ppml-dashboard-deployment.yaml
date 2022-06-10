@@ -21,5 +21,5 @@ spec:
           imagePullPolicy: IfNotPresent
           command: ["/bin/sh","-c"]
           args: ["
-                python3 /opt/metrics.py 0.0.0.0 50003;
+                python3 /root/metrics.py 0.0.0.0 50003;
                 "]
